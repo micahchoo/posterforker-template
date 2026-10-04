@@ -1,0 +1,5 @@
+title: The Great Wave off Kanagawa
+# An Image up to 25 MB can sit in this folder. A bigger one goes on a Release:
+#   image: { release: my-big-scan.tif }
+image: { file: great-wave.jpg }
+alt: A huge wave curls over three fishing boats, with Mount Fuji small in the distance.

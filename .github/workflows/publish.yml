@@ -1,0 +1,30 @@
+# Builds your Collection and publishes it on GitHub Pages.
+# It runs when you commit, and when you publish a Release (a big Image may be on it).
+name: Publish
+
+on:
+  push:
+    branches: [main]
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.build.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+      - id: build
+        uses: micahchoo/posterforker@v1

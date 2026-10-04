@@ -1,0 +1,10 @@
+# Your Collection. /edit (Layout tab) can write this file for you.
+title: The Great Wave
+tours: [great-wave]
+credits: Katsushika Hokusai, The Great Wave off Kanagawa (about 1831). Public domain, via Wikimedia Commons.
+layout:
+  panel: [scene-text, scene-list, prev-next]
+  top: [tour-switcher]
+  top-right: [share, fullscreen]
+  bottom-right: [zoom]
+  bottom-left: [credits]
