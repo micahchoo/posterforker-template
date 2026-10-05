@@ -26,12 +26,13 @@ See this template's own Collection: https://micahchoo.github.io/posterforker-tem
 |---|---|
 | Add an Image up to 25 MB | **Add file → Upload files** into a new folder `tours/<name>/`, then copy `tours/great-wave/tour.yml` beside it |
 | Add a bigger Image (up to 2 GB) | **Releases → Draft a new release**, attach the file, publish; in `tour.yml` write `image: { release: <file name> }` |
-| Add or change a Scene | Open your Collection's `edit/` address, press **Add a Scene** or pick one, drag its box, write, then **Save** |
-| Change the look or the layout | `edit/` → **Look** or **Layout**, then **Save** |
+| Add or change a Scene | Open your Collection's `edit/` address, press **Add a Scene** or pick one, drag its box, write |
+| Change the look or the layout | `edit/` → **Look** or **Layout** |
 | Remove the example | Delete the folder `tours/great-wave/` and its name in `collection.yml` |
 
-**Save** asks you to sign in with GitHub the first time, and to let PosterForker save to
-this repository. Each save publishes again, in about a minute. If something is wrong, the **Publish** run fails and
+When you are done, press **Save without signing in**. It lists each change with a button
+that opens the right page on GitHub; commit each one there. Every commit publishes again,
+in about a minute. Your unsaved edits wait in the browser until then, even across a reload. If something is wrong, the **Publish** run fails and
 GitHub marks the line on the file, for example
 `tours/river/scenes/04.md line 3: region.w is required`.
 
