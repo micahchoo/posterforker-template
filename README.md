@@ -30,7 +30,7 @@ See this template's own Collection: https://micahchoo.github.io/posterforker-tem
 | Change the look or the layout | `edit/` → **Look** or **Layout** |
 | Remove the example | Delete the folder `tours/great-wave/` and its name in `collection.yml` |
 
-When you are done, press **Save without signing in**. It lists each change with a button
+When you are done, press **Save**. It lists each change with a button
 that opens the right page on GitHub; commit each one there. Every commit publishes again,
 in about a minute. Your unsaved edits wait in the browser until then, even across a reload. If something is wrong, the **Publish** run fails and
 GitHub marks the line on the file, for example
